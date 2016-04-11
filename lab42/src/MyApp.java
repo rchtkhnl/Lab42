@@ -4,6 +4,7 @@ public class MyApp {
  public static void main(String[] args) {
  Product product = new Product("Edam", 3.3, 120);
  product.changeBalance(20);
+ product.changePrice();
  System.out.println("Product value is " + product.countValue());
  product.printProduct();
  
@@ -31,6 +32,10 @@ public int changeBalance(int newvalue){
     newvalue = this.amount;
     return newvalue;
     
+}
+public int changePrice(){
+    int newprice = 0;
+    return newprice;
 }
 
 }
